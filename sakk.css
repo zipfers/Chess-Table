@@ -1,0 +1,57 @@
+.tablakulso{
+    border:10px solid black;
+}
+
+tr{
+    border: none;
+}
+
+.szin1{
+    background-color:indianred;
+}
+
+.szin2{
+    background-color:coral;
+}
+
+.szin3{
+    background-color: brown;
+}
+
+.tabla_sor_magassag{
+    height: 80px;
+}
+
+.tabla_sor_szelesseg{
+    width: 80px;
+}
+
+.kepmeret{
+    width: 40px;
+}
+
+.kep{
+width: 100%;
+position:relative;
+
+}
+
+.kovabe{
+    text-align: center;
+}
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.jobb{
+    text-align: right;
+    padding: 15%;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; 
+}

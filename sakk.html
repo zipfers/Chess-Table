@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rimóczy Kolos">
+    <meta name="keywords" content="Sakktábla">
+    <meta name="description" content="Egy szép sakktábla">
+    <link href="./sakk.css" rel="stylesheet">
+    <title>Sakktábla</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>Sakktábla:</h1>
+        <!-- használandó képek nevei 
+    SÖTÉT:
+    p2.png - sötét gyalog
+    p2fb.png - sötét futó
+    p2bb.png - sötét bástya
+    p2kirb.png - sötét király
+    p2knob.png - sötét királynő
+    p2futob.png - sötét futó
+    
+    VILÁGOS:
+    p2w.png - világos gyalog
+    p2bw.png - bástya világos
+    p2fw.png - futó világos
+    p2kir2w.png - király világos
+    p2kirnow.png - királnyő világos
+    p2futow.png - futó világos
+
+    -->
+
+        <table style="width:800px" class="tablakulso" cellpadding="0" cellspacing="0">
+            <!-- Első 'fejléc' sor: -->
+            <thead>
+                <tr class="tabla_sor_magassag">
+                    <th class="szin3"></th>
+                    <th class="szin3">A</th>
+                    <th class="szin3">B</th>
+                    <th class="szin3">C</th>
+                    <th class="szin3">D</th>
+                    <th class="szin3">E</th>
+                    <th class="szin3">F</th>
+                    <th class="szin3">G</th>
+                    <th class="szin3">H</th>
+                    <th class="szin3"></th>
+                </tr>
+            </thead>
+
+            <!-- INNEN KELL FIGURA!------------------------ -->
+            <tbody>
+                <!-- 1. Első igazi sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">1</p>
+                    </td>
+                    <td class="szin1 tabla_sor_szelesseg"><img class="kep" src="p2bb.png"></td>
+                    <td class="szin2 tabla_sor_szelesseg"><img class="kep" src="p2futob.png"></td>
+                    <td class="szin1 tabla_sor_szelesseg"><img class="kep" src="p2fb.png"></td>
+                    <td class="szin2 tabla_sor_szelesseg"><img class="kep" src="p2kirb.png"></td>
+                    <td class="szin1 tabla_sor_szelesseg"><img class="kep" src="p2knob.png"></td>
+                    <td class="szin2 tabla_sor_szelesseg"><img class="kep" src="p2fb.png"></td>
+                    <td class="szin1 tabla_sor_szelesseg"><img class="kep" src="p2futob.png"></td>
+                    <td class="szin2 tabla_sor_szelesseg"><img class="kep" src="p2bb.png"></td>
+                    <td class="szin3 tabla_sor_szelesseg">1</td>
+                </tr>
+
+                <!-- 2.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">2</p>
+                    </td>
+                    <td class="szin2"><img class="kep" src="p2.png"></td>
+                    <td class="szin1"><img class="kep" src="p2.png"></td>
+                    <td class="szin2"><img class="kep" src="p2.png"></td>
+                    <td class="szin1"><img class="kep" src="p2.png"></td>
+                    <td class="szin2"><img class="kep" src="p2.png"></td>
+                    <td class="szin1"><img class="kep" src="p2.png"></td>
+                    <td class="szin2"><img class="kep" src="p2.png"></td>
+                    <td class="szin1"><img class="kep" src="p2.png"></td>
+                    <td class="szin3">2</td>
+                </tr>
+
+                <!-- 3.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">3</p>
+                    </td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin3">3</td>
+                </tr>
+
+                <!-- 4.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">4</p>
+                    </td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin3">4</td>
+                </tr>
+
+                <!-- 5.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">5</p>
+                    </td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin3">5</td>
+                </tr>
+
+                <!-- 6.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">6</p>
+                    </td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin2"></td>
+                    <td class="szin1"></td>
+                    <td class="szin3">6</td>
+                </tr>
+
+                <!-- 7.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">7</p>
+                    </td>
+                    <td class="szin1"><img class="kep" src="p2w.png"></td>
+                    <td class="szin2"><img class="kep" src="p2w.png"></td>
+                    <td class="szin1"><img class="kep" src="p2w.png"></td>
+                    <td class="szin2"><img class="kep" src="p2w.png"></td>
+                    <td class="szin1"><img class="kep" src="p2w.png"></td>
+                    <td class="szin2"><img class="kep" src="p2w.png"></td>
+                    <td class="szin1"><img class="kep" src="p2w.png"></td>
+                    <td class="szin2"><img class="kep" src="p2w.png"></td>
+                    <td class="szin3">7</td>
+                </tr>
+
+                <!-- 8.sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3">
+                        <p class="jobb">8</p>
+                    </td>
+                    <td class="szin2"><img class="kep" src="p2bw.png"></td>
+                    <td class="szin1"><img class="kep" src="p2futow.png"></td>
+                    <td class="szin2"><img class="kep" src="p2fw.png"></td>
+                    <td class="szin1"><img class="kep" src="p2kirw.png"></td>
+                    <td class="szin2"><img class="kep" src="p2kirnow.png"></td>
+                    <td class="szin1"><img class="kep" src="p2fw.png"></td>
+                    <td class="szin2"><img class="kep" src="p2futow.png"></td>
+                    <td class="szin1"><img class="kep" src="p2bw.png"></td>
+                    <td class="szin3">8</td>
+                </tr>
+            </tbody>
+            <!-- ITT MÁR NEM KELL FIGURA , EZ A KERET!----------- -->
+            <tfoot>
+                <!-- 9. alsó nem tábla sor -->
+                <tr class="tabla_sor_magassag">
+                    <td class="szin3"></td>
+                    <td class="szin3">
+                        <p class="kovabe">A</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">B</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">C</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">D</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">E</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">F</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">G</p>
+                    </td>
+                    <td class="szin3">
+                        <p class="kovabe">H</p>
+                    </td>
+                    <td class="szin3"></td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+</body>
+
+</html>
